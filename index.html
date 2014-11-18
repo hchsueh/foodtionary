@@ -12,12 +12,28 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script type='text/javascript'>
+      $(document).ready(function() {
+        $('#page_holder').pagify({
+          pages: ['ingr_onion','ingr_eggplant','ingr_squid'],
+          animation: 'fadeIn',
+          'default': 'about',
+          cache: true
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1 class="header">Foodtionary</h1>
         <p class="header"></p>
+        
+        <nav>
+          <a href='#ingr_onion'>洋蔥</a>
+          <a href='#ingr_eggplant'>茄子</a>
+          <a href='#ingr_squid'>中卷</a>
+        </nav>
 
         <ul>
           <!--<li class="download"><a class="buttons" href="https://github.com/hchsueh/foodtionary/zipball/master">Download ZIP</a></li>
@@ -29,22 +45,23 @@
 
 
       </header>
-      <section>
+      <section  id='page_holder'>
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>The wiki for food and cuisine.</h3>
+        <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>The wiki for food and cuisine.</h3>
 
-<p>Enjoy it!</p>
+        <p>Enjoy it!</p>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact author</h3>
-
-<p>Hsea-Ching Hsueh</p>
-
+        <h3>
+        <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact author</h3>
   
+        <p>Hsea-Ching Hsueh</p>  
       </section>
+
+      
       <!--<footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>-->
+    
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 		
