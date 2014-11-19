@@ -334,13 +334,14 @@ a.buttons:hover {
 #page_holder {
   width:70%;
   height: 100vh;
+  float: right;
 }
 /* Section - for main page content */
 
 section {
   width: 100%;
   height: 100%;
-  float:right;
+  /*float:right;*/
   padding-bottom:50px;
 }
 
