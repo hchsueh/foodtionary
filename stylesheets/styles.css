@@ -224,6 +224,7 @@ header {
 	background-color: #171717;
 	color: #FDFDFB;
   width:250px;
+  height: 100vh;
   float:left;
   /*position:fixed;*/
 	border: 1px solid #000;
@@ -334,6 +335,7 @@ a.buttons:hover {
 
 section {
   width:70%;
+  height: 100vh;
   float:right;
   padding-bottom:50px;
 }
