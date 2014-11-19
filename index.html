@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Foodtionary by hchsueh</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <!--<link rel="stylesheet" href="stylesheets/styles.css">-->
+    <link rel="stylesheet" href="stylesheets/styles_original.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -49,16 +50,25 @@
       <header>
         <h1 class="header"><a href='#welcome'>Foodtionary</a></h1>
         <p>Discover. Cook. Enjoy.</p>
-        <form class="form-wrapper">
+        <!--<form class="form-wrapper">
           <input type="text" placeholder="找食材" required>
           <button type="submit" id="search_btn">搜尋</button>  
-        </form>
+        </form>-->
         
         <ul>
           <!--<li><a href='#welcome'>首頁</a></li>-->
-          <li><a href='#list_vegetable'>蔬菜</a></li>
-          <li><a href='#list_fruits'>水果</a></li>
-          <li><a href='#list_herbs'>香草/香料</a></li>
+          <li class='btn'>
+            <form class="form-wrapper">
+              <input type="text" placeholder="找食材" required>
+              <button type="submit" id="search_btn">搜尋</button>  
+            </form>
+          </li>
+          <li class='item'><a href='#list_vegetable'>蔬菜</a></li>
+          <li class='item'><a href='#list_fruits'>水果</a></li>
+          <li class='item'><a href='#'>肉類</a></li>
+          <li class='item'><a href='#'>海鮮</a></li>
+          <li class='item'><a href='#list_herbs'>香草/香料</a></li>
+          <li class='item'><a href='#'>醬料</a></li>
         </ul>
 
         <ul>
