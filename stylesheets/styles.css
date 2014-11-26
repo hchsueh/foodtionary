@@ -416,6 +416,10 @@ header li a:hover {
   text-decoration: none;
 }
 
+header li blank {
+  visibility: hidden;
+}
+
 header p {
   padding-left: 10px;
 }
